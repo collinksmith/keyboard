@@ -1,3 +1,5 @@
+require("hs.ipc")
+hs.ipc.cliInstall()
 local log = hs.logger.new('init.lua', 'debug')
 
 -- Use Control+` to reload Hammerspoon config
