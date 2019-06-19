@@ -413,7 +413,7 @@
                                     }
                                 },
                                 "parameters": {
-                                    "basic.simultaneous_threshold_milliseconds": 40
+                                    "basic.simultaneous_threshold_milliseconds": 20
                                 },
                                 "to": [
                                     {
@@ -728,6 +728,14 @@
                     "simple_modifications": [
                         {
                             "from": {
+                                "key_code": "application"
+                            },
+                            "to": {
+                                "key_code": "fn"
+                            }
+                        },
+                        {
+                            "from": {
                                 "key_code": "left_command"
                             },
                             "to": {
@@ -748,14 +756,6 @@
                             },
                             "to": {
                                 "key_code": "right_command"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "application"
-                            },
-                            "to": {
-                                "key_code": "fn"
                             }
                         }
                     ]
@@ -860,6 +860,9 @@
                 }
             ],
             "name": "Default profile",
+            "parameters": {
+                "delay_milliseconds_before_open_device": 1000
+            },
             "selected": true,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
