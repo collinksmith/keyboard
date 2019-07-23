@@ -270,7 +270,7 @@
                                     }
                                 },
                                 "parameters": {
-                                    "basic.simultaneous_threshold_milliseconds": 20
+                                    "basic.simultaneous_threshold_milliseconds": 25
                                 },
                                 "to": [
                                     {
